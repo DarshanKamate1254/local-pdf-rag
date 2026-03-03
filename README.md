@@ -32,9 +32,5 @@ Built for privacy-focused environments where cloud APIs are not allowed.
 
 ## 🧠 Architecture Flow
 
-```
-PDF → Text Extraction → Chunking → Embeddings → ChromaDB
-          ↑                                  ↓
-        User Query ← Semantic Retrieval ← Prompt → LLM Response
-```
+![Architecture Flow](mermaid-diagram.png)
 

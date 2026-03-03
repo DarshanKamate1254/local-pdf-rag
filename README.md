@@ -18,3 +18,4 @@ Built for privacy-focused environments where cloud APIs are not allowed.
 5.Retrieve top-k relevant chunks
 6.Construct prompt
 7.Generate answer via local LLM
+

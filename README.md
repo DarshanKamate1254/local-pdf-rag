@@ -34,3 +34,87 @@ Built for privacy-focused environments where cloud APIs are not allowed.
 
 ![Architecture Flow](mermaid-diagram.png)
 
+---
+
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/DarshanKamate1254/local-pdf-rag.git
+cd local-pdf-rag
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Or manually:
+
+```bash
+pip install chromadb pypdf sentence-transformers torch requests
+```
+
+---
+
+## 🖥️ Setup Local LLM (LM Studio)
+
+1. Install LM Studio  
+2. Download a model (e.g., Mistral, LLaMA, Phi)  
+3. Start the local server  
+4. Default endpoint:
+
+```
+http://localhost:1234/v1/chat/completions
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+Upload your PDF and start chatting.
+
+---
+
+## 📸 Demo
+
+<p align="center">
+  <img src="images/demo.png" width="800"/>
+</p>
+
+The system retrieves the most relevant chunks from the PDF and generates contextual answers using a locally hosted LLM.
+
+---
+
+## 🔐 Privacy & Security
+
+- No cloud API calls  
+- No data leaves your machine  
+- Fully offline processing  
+- Ideal for sensitive or enterprise environments  
+
+---
+
+## 🚀 Future Improvements
+
+- Hybrid Search (BM25 + Vector similarity)  
+- Multi-document collections  
+- Metadata filtering  
+- Streaming responses  
+- Web UI (Streamlit / FastAPI)  
+- Docker support  
+
+---
+
+## 📜 License
+
+MIT License

@@ -1,4 +1,4 @@
-# 📄 Local PDF Chat Application (Offline RAG)
+# Local PDF Chat Application (Offline RAG)
 
 A fully offline **Retrieval-Augmented Generation (RAG)** system that enables conversational question-answering over uploaded PDF documents using a locally hosted LLM.
 
@@ -117,3 +117,4 @@ Upload your PDF and start chatting with your document.
 ## 📜 License
 
 MIT License
+

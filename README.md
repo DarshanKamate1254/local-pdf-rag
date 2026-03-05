@@ -86,7 +86,7 @@ Upload your PDF and start chatting.
 ## 📸 Demo
 
 <p align="center">
-  <img src="images/demo.png" width="800"/>
+  <img src="Screenshot 2026-03-03 181904.png"/>
 </p>
 
 The system retrieves the most relevant chunks from the PDF and generates contextual answers using a locally hosted LLM.
@@ -116,4 +116,5 @@ The system retrieves the most relevant chunks from the PDF and generates context
 ## 📜 License
 
 MIT License
+
 
